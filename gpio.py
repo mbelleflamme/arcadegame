@@ -1,4 +1,5 @@
 # GPIO controls
+# jemoeder
 
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)	
@@ -16,8 +17,6 @@ def button_y():
 def button_x():
 	return GPIO.input(22) == True
 
-
-#nieuwe code by Zohaad
 #INSTRUCTIES: gebruik pip of easy_install voor python-uinput (tjjr.fi)
 # aan /etc/modules toevoegen OF "modprobe uinput"
 
